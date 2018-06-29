@@ -1,0 +1,17 @@
+{
+  "name": "visp",
+  "version": "1.0.0",
+  "description": "data-relation-view",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "cassowary": "0.0.2",
+    "mithril": "^1.1.6",
+    "underscore": "^1.9.1"
+  }
+}

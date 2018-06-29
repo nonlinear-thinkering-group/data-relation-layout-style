@@ -1,0 +1,103 @@
+*{box-sizing: border-box;}
+
+body {
+    margin: 0px;
+    font-family: Arial;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.add-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: default;
+}
+
+.bar {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    top: 0px;
+    background-color: #eeeef3;
+    padding: 20px;
+}
+
+.left-bar {
+    left: 0px;
+    border-right: 1px solid #dedee4;
+}
+
+
+.right-bar {
+    right: 0px;
+    border-left: 1px solid #dedee4;
+}
+
+.view {
+    margin-left: calc(20% + 50px);
+    margin-top: 50px;
+}
+
+.view-page {
+    box-shadow: 0px 0px 10px #d0cece;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.view-node {
+    margin-left: 5px;
+    cursor: default;
+}
+
+/*VALUES*/
+
+.values {
+    height: 50%;
+    position: relative;
+}
+
+.value {
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.value-value {
+    font-size: 18pt;
+    width: 100px;
+}
+
+.value-type {
+    font-size: 8pt;
+}
+
+.hover {
+    position: relative;
+}
+
+.hover {
+    outline: 1px blue solid;
+    outline-offset:-1px;
+}
+
+.select {
+    outline: 1px red solid;
+    outline-offset:-1px;
+}
+
+/*STYLES*/
+.styles {
+    position: relative;
+}
+.style {
+    margin-bottom: 20px;
+}
+
+.relations {
+    border-top: 1px solid #dedee4;
+}
